@@ -1,0 +1,15 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "jsdom",
+  "moduleFileExtensions": [
+    "js",
+    "ts",
+    "json",
+    "vue"
+  ],
+  "transform": {
+    ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+  },
+  "collectCoverage": true,
+  "coverageProvider": "v8"
+}
